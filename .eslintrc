@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "babel",
+    "flowtype"
+  ],
+  "extends": ["standard"],
+  "rules": {
+    "generator-star-spacing": 0,
+    "babel/generator-star-spacing": [2, "before"],
+    "flowtype/define-flow-type": 2,
+    "flowtype/use-flow-type": 2,
+    "promise/catch-or-return": 2
+  }
+}
